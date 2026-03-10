@@ -23,9 +23,9 @@ To address these challenges, this project explores a hybrid recommendation archi
 ---
 ## Dataset
 
-This project uses a subset of **Yelp Open Dataset**, a publicly available dataset containing Yelp's business metadata, user profiles, reviews, tips, check-ins, and photos.
+This project uses a subset of the **Yelp Open Dataset**, a publicly available dataset containing Yelp's business metadata, user profiles, reviews, tips, check-ins, and photos.
 
-For model development, the provided interaction data was split into:
+For model development, the interaction data was split into:
 - Training set: 455,854 user–business rating records
 - Validation set: 142,044 records
 - A separate held-out test set was used in the original course setting but was not publicly released
@@ -33,6 +33,8 @@ For model development, the provided interaction data was split into:
 More details about the dataset can be found here:
 https://business.yelp.com/data/resources/open-dataset/
 
+Due to GitHub file size limitations, the dataset is **not included in this repository**.  
+Please download the dataset from the link above and place the files under the `data/` directory before running the pipeline.
 
 ---
 
@@ -59,9 +61,10 @@ flowchart TD
     F --> G
 
     G --> H[Final Rating Prediction]
-```
 
---
+
+```
+---
 
 ## Feature Engineering
 Feature engineering is performed using PySpark to efficiently process large Yelp datasets.
@@ -156,7 +159,7 @@ This represents a significant improvement in prediction accuracy and ranked with
 
 ```text
 hybrid-recommendation-system/
-├── data/
+├── data/ # dataset (ignored)
 │   ├── business.json
 │   ├── checkin.json
 │   ├── photo.json

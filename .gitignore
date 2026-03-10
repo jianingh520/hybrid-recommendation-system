@@ -1,0 +1,27 @@
+# dataset
+data/
+
+# large data files
+*.csv
+*.json
+
+# python cache
+__pycache__/
+*.pyc
+
+# jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# environment
+.env
+venv/
+.venv/
+
+# mac files
+.DS_Store
+
+# model artifacts
+models/
+*.pkl
+*.joblib
+

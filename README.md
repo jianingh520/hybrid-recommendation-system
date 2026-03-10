@@ -8,6 +8,20 @@ The final prediction is generated through a weighted ensemble of the two models 
 
 ---
 
+## Table of Contents
+1. [Problem Motivation](#Problem-Motivation)
+2. [Dataset](#Dataset)
+3. [System Architecture](#System-Architecture)
+4. [Feature Engineering](#Feature-Engineering)
+5. [Modeling Approach](#Modeling-Approach)
+6. [Evaluation](#Evaluation)
+7. [Prerequisites](#Prerequisites)
+8. [Quick Start](#Quick-Start)
+9. [Future Improvements](#Future-Improvements)
+10. [Author Contribution](#Author-Contribution)
+
+---
+
 ## Problem Motivation
 
 Recommendation systems are a core component of many modern platforms such as streaming services, marketplaces, and review platforms. They help users discover relevant items from large catalogs and improve user engagement.

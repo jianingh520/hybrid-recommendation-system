@@ -261,7 +261,7 @@ python scripts/run_pipeline.py data/ data/yelp_val.csv output/predictions.csv
 
 Several extensions could further improve the system:
 
-- **Feature importance & SHAP**: Identifying which signals drive predictions most — useful for model debugging and future feature selection. (Not completed due to time constraints during the course.)
+- **Feature importance & SHAP**: Identifying which signals drive predictions most, useful for model debugging and future feature selection. (Not completed due to time constraints during the course.)
 - **Two-tower neural architecture**: Separate encoders for users and items for scalable candidate retrieval at millions-scale.
 - **Embedding-based representations**: Replace hand-crafted features with learned dense vectors via matrix factorization or neural CF.
 - **Multi-stage pipeline**: Decouple retrieval (top-K candidates) from ranking, mirroring production recommendation stacks.
